@@ -5,31 +5,50 @@
           <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="index.php" class="nav-link text-white">Home</a>
+          <a href="index.html" class="nav-link text-white">Home</a>
         </li>
-      </ul>
 
+      </ul>
       <ul style=" z-index: 1;" class="nav navbar-nav navbar-right nav_bar_icons menu_right_li">
         <li class="new_invoice_top_menu_link_li">
-          <a style="color: white;" href="new-invoice.php" class="new_bill_btn btn btn-success btn-sm btn-xs"><img
+          <a style="color: white;" href="#expense" class="new_bill_btn btn btn-success btn-sm btn-xs" ><img
               class="lazy_img" width="20" src="https://demo.bhisab.com/images/icon/bill.png" ><span
-              class="new_bill">&nbsp;New Invoice
-              <i class="far fa-plus-square"></i></span></a>
+              class="new_bill">&nbsp;Expense
+             </span>
+             </a> 
         </li>
-        <li class="new_invoice_top_menu_link_li" style="margin:0 10px ;">
-          <a style="color: white;" href="new_invoice.php" class="new_bill_btn btn btn-success btn-sm btn-xs"
-            data-toggle="modal" data-target="#modal-default"><img class="lazy_img" width="20"
-              src="https://demo.bhisab.com/images/icon/bill.png"><span class=" new_bill">&nbsp;New Receive
-              <i class="far fa-plus-square"></i></span></a>
+        <li class="new_invoice_top_menu_link_li ml-3">
+          <a style="color: white;" href="#deposit" class="new_bill_btn btn btn-success btn-sm btn-xs" ><img
+              class="lazy_img" width="20" src="https://demo.bhisab.com/images/icon/bill.png" ><span
+              class="new_bill">&nbsp;Deposit
+            </span>
+          </a> 
         </li>
-        <li class="new_invoice_top_menu_link_li">
-          <a style="color: white;" href="new_invoice.php" class="new_bill_btn btn btn-success btn-sm btn-xs"
-            data-toggle="modal" data-target="#modal-expense"><img class="lazy_img" width="20"
-              src="https://demo.bhisab.com/images/icon/bill.png"><span class=" new_bill">&nbsp;New Expense
-              <i class="far fa-plus-square"></i></span></a>
+        <li class="new_invoice_top_menu_link_li ml-3">
+          <a style="color: white;" href="#withdraw" class="new_bill_btn btn btn-success btn-sm btn-xs" ><img
+              class="lazy_img" width="20" src="https://demo.bhisab.com/images/icon/bill.png" ><span
+              class="new_bill">&nbsp;Withdraw
+            </span>
+          </a> 
         </li>
-      </ul>
+        <li class="new_invoice_top_menu_link_li ml-3">
+          <a style="color: white;" href="#fund" class="new_bill_btn btn btn-success btn-sm btn-xs" ><img
+              class="lazy_img" width="20" src="https://demo.bhisab.com/images/icon/bill.png" ><span
+              class="new_bill">&nbsp;Fund
+              </span>
+              </a>
+        </li>
+        <li class="new_invoice_top_menu_link_li ml-3">
+          <a style="color: white;" href="#debit" class="new_bill_btn btn btn-success btn-sm btn-xs" ><img
+              class="lazy_img" width="20" src="https://demo.bhisab.com/images/icon/bill.png" ><span
+              class="new_bill">&nbsp;Debit & Credit
+            </span>
+          </a> 
+        </li>
 
+
+
+      </ul>
       <!-- Right navbar links -->
       <ul class="navbar-nav ml-auto">
         <!-- Navbar Search -->
@@ -54,6 +73,7 @@
             </form>
           </div>
         </li>
+
         <!-- Messages Dropdown Menu -->
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#">
